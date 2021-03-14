@@ -380,14 +380,15 @@
 	"../include/game.hpp"
 	<iostream>
 
-1612629361 source:e:\sdl_project_demo_for_test\sdl_turtorial\main.cpp
+1615705891 source:e:\sdl_project_demo_for_test\sdl_turtorial\main.cpp
 	"../include/game.hpp"
 	<iostream>
 
-1613724678 e:\sdl_project_demo_for_test\include\game.hpp
+1615708056 e:\sdl_project_demo_for_test\include\game.hpp
 	"SDL2/SDL.h"
 	"SDL_image.h"
 	<stdio.h>
+	<vector>
 
 1612630351 source:e:\sdl_project_demo_for_test\sdl_turtorial\subgame.cpp
 	"../include/game.hpp"
@@ -783,19 +784,20 @@
 	"../include/GameObject.h"
 	"../include/TextureManager.hpp"
 
-1613725509 source:e:\sdl_project_demo_for_test\sdl_turtorial\game.cpp
+1615706893 source:e:\sdl_project_demo_for_test\sdl_turtorial\game.cpp
 	"../include/game.hpp"
 	"../include/TextureManager.hpp"
 	"../include/Map.h"
 	"../include/Components.h"
 	"../include/Vector2D.h"
+	"../include/Collision.h"
 	<iostream>
 
-1612802380 source:e:\sdl_project_demo_for_test\sdl_turtorial\map.cpp
+1614093792 source:e:\sdl_project_demo_for_test\sdl_turtorial\map.cpp
 	"../include/Map.h"
 	"../include/TextureManager.hpp"
 
-1612802160 e:\sdl_project_demo_for_test\include\map.h
+1614093267 e:\sdl_project_demo_for_test\include\map.h
 	"game.hpp"
 
 1613641683 e:\sdl_project_demo_for_test\include\ecs.h
@@ -807,31 +809,52 @@
 	<array>
 	<cstddef>
 
-1613725441 e:\sdl_project_demo_for_test\include\components.h
+1614695944 e:\sdl_project_demo_for_test\include\components.h
 	"ECS.h"
 	"TransformComponent.h"
 	"SpriteComponent.h"
 	"KBController.h"
+	"Collide.h"
+	"TileComponent.h"
 
 1613668717 e:\sdl_project_demo_for_test\include\positioncomponent.h
 	"Components.h"
 
-1613724002 e:\sdl_project_demo_for_test\include\spritecomponent.h
+1614611136 e:\sdl_project_demo_for_test\include\spritecomponent.h
 	"Components.h"
 	"SDL2/SDL.h"
+	"TextureManager.hpp"
 
-1613725443 e:\sdl_project_demo_for_test\include\transformcomponent.h
+1614611300 e:\sdl_project_demo_for_test\include\transformcomponent.h
 	"Components.h"
 	"Vector2D.h"
 
-1613723591 e:\sdl_project_demo_for_test\include\vector2d.h
+1614610902 e:\sdl_project_demo_for_test\include\vector2d.h
 	<iostream>
 
-1613723691 source:e:\sdl_project_demo_for_test\sdl_turtorial\vector2d.cpp
+1614611299 source:e:\sdl_project_demo_for_test\sdl_turtorial\vector2d.cpp
 	"../include/Vector2D.h"
 
-1613743656 e:\sdl_project_demo_for_test\include\kbcontroller.h
+1613743841 e:\sdl_project_demo_for_test\include\kbcontroller.h
 	"game.hpp"
 	"ECS.h"
 	"Components.h"
+
+1614703760 source:e:\sdl_project_demo_for_test\sdl_turtorial\collision.cpp
+	"../include/Collision.h"
+	"../include/Collide.h"
+
+1614699290 e:\sdl_project_demo_for_test\include\collision.h
+	"SDL2/SDL.h"
+
+1614704037 e:\sdl_project_demo_for_test\include\collide.h
+	<string>
+	"SDL2/SDL.h"
+	"Components.h"
+
+1615706963 e:\sdl_project_demo_for_test\include\tilecomponent.h
+	"ECS.h"
+	"TransformComponent.h"
+	"SpriteComponent.h"
+	"SDL2/SDL.h"
 

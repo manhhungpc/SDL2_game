@@ -6,16 +6,17 @@ public:
     Map();
     ~Map();
 
-    void loadMap(int a[10][15]);
+    void loadMap(int a[100][100]);
     void drawMap();
 
 private:
 
     SDL_Rect src, dest;
 
-    SDL_Texture* dirt;
-    SDL_Texture* grass;
-    SDL_Texture* water;
+    SDL_Texture* floor1;
+    SDL_Texture* floor2;
+    SDL_Texture* floor3;
+    SDL_Texture* floor4;
 
-    int gameMap[10][15];
+    int gameMap[100][100];
 };

@@ -45,6 +45,8 @@
 			<Add directory="C:/Development/x86_64-w64-mingw32_SDL2_image/lib" />
 			<Add directory="C:/Development/i686-w64-mingw32_SDL2_image/lib" />
 		</Linker>
+		<Unit filename="../include/Collide.h" />
+		<Unit filename="../include/Collision.h" />
 		<Unit filename="../include/Components.h" />
 		<Unit filename="../include/ECS.h" />
 		<Unit filename="../include/GameObject.h" />
@@ -52,9 +54,11 @@
 		<Unit filename="../include/Map.h" />
 		<Unit filename="../include/SpriteComponent.h" />
 		<Unit filename="../include/TextureManager.hpp" />
+		<Unit filename="../include/TileComponent.h" />
 		<Unit filename="../include/TransformComponent.h" />
 		<Unit filename="../include/Vector2D.h" />
 		<Unit filename="../include/game.hpp" />
+		<Unit filename="Collision.cpp" />
 		<Unit filename="Game.cpp" />
 		<Unit filename="GameObject.cpp" />
 		<Unit filename="Map.cpp" />
